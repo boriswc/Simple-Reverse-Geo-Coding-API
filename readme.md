@@ -6,10 +6,10 @@
 * Please see requirements.txt file that includes all necessary pip installations
 
 ## How to run? + install
-
-* Python3 -m pip install -r requirements.txt
+* Install python3-pip : Execute "sudo apt-get install python3-pip" in terminal and press Y when prompted
+* Execute "python3 -m pip install -r requirements.txt" in terminal
 * Define the API_KEY environment variable with your Google API key  (export API_KEY=YOUR_GOOGLE_API_KEY for linux)
-* Run python3 main.py
+* Execute "python3 main.py"
 * Send request through cURL or WGET (E.G: curl -i -X POST -F "file=@YOUR_CSV_FILE_PATH" http://127.0.0.1:5000/calculateDistances)
 
 # Project Organization
