@@ -7,7 +7,6 @@ import geopy.distance
 from io import StringIO
 from flask import Flask, request, abort
 
-# curl -i -X POST -F "file=@C:\Users\boris\Desktop\coordinates.csv" http://127.0.0.1:5000/upload
 GOOGLE_MAP_API_URL = 'https://maps.googleapis.com/maps/api/geocode/json'
 api_key = os.environ.get('API_KEY')
 
