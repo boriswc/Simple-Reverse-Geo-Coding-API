@@ -2,7 +2,7 @@
 
 ## Requirements
 
-* Python Version >= 3.7.4
+* Python Version >= 3.6
 * Please see requirements.txt file that includes all necessary pip installations
 
 ## How to run? + install
