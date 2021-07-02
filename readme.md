@@ -7,7 +7,7 @@
 
 ## How to run? + install
 
-* Python3 -m pip install -r requirement.txt
+* Python3 -m pip install -r requirements.txt
 * Define the API_KEY environment variable with your Google API key  (export API_KEY=YOUR_GOOGLE_API_KEY for linux)
 * Run python3 main.py
 * Send request through cURL or WGET (E.G: curl -i -X POST -F "file=@YOUR_CSV_FILE_PATH" http://127.0.0.1:5000/calculateDistances)
