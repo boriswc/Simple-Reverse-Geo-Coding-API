@@ -40,8 +40,8 @@ def calculate_distances():
         'points': [{'name': name, 'address': address} for name, address in ret_address.items()],
         'links': [{'name': distance['name'], 'distance': distance['distance']} for distance in distances]
     }
-    # Replace return with return json.dumps(returned_dict, indent=4) for a more comfortable formatting of response
-    return json.dumps(returned_dict, indent=4)
+    # Replace return with return json.dumps(returned_dict, indent=4) for a response that is easier to look at
+    return returned_dict
 
 
 # Receives the list of dictionaries and dictionary to calculate the distance between all the different locations
