@@ -76,7 +76,7 @@ def get_address_from_gapi(coordinates_dictionary):
     return ret_address
 
 
-# Receives a file and checks if the extension is a csv file
+# Receives a file and checks for various errors like a missing file, no API KEY set up, empty file name and wrong file extension
 def check_exceptions(file):
     if not api_key:
         abort(400, "Missing API KEY, please configure the API_KEY environment variable")
