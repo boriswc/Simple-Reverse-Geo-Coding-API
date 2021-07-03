@@ -3,7 +3,7 @@
 ## Requirements
 
 * Python Version >= 3.6 (Because of the use of formatted print which was added to Python 3.6)
-* Please see requirements.txt file that includes all necessary pip installations
+* Please see requirements.txt file that includes all necessary pip module installations (Or follow step 2 of the How to run? + install )
 
 ## How to run? + install
 * Install python3-pip : Execute "sudo apt-get install python3-pip" in terminal and press Y when prompted
