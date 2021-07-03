@@ -2,7 +2,7 @@
 
 ## Requirements
 
-* Python Version >= 3.6
+* Python Version >= 3.6 (Because of the use of formatted print which was added to Python 3.6)
 * Please see requirements.txt file that includes all necessary pip installations
 
 ## How to run? + install
